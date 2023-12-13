@@ -1,0 +1,241 @@
+@font-face {
+    font-family: userFont;
+    src: url(Font/Playball-Regular.ttf);
+}
+@font-face {
+    font-family: allFont;
+    src: url(Font/RobotoSerif-Italic-VariableFont_GRAD\,opsz\,wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: allFont2;
+    src: url(Font/RobotoSerif-VariableFont_GRAD\,opsz\,wdth\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 5px solid goldenrod;
+    border-radius: 5px;
+    background-color: #808080;
+    height: 98.7%;
+
+}
+
+.top-left-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: auto;
+    margin-top: 5.5px;
+    margin-left: 5.5px;
+}
+
+.top-left2-image {
+    margin-left: 5.5px;
+    position: absolute;
+    top: 175px;
+    left: 0;
+    width: 49px;
+    height: auto;
+}
+
+.top-left3-image {
+    margin-left: 5.5px;
+    position: absolute;
+    top: 285px;
+    left: 0;
+    width: 49px;
+    height: auto;
+}
+
+.bottom-right-image {
+    position: absolute;
+    top: 588px;
+    right: 0;
+    left: 918px;
+    width: 200px;
+    height: auto;
+    margin-right: 5.5px;
+}
+
+.bottom-right1-image {
+    position: absolute;
+    top: 373px;
+    right: 0;
+    width: 49px;
+    height: auto;
+    margin-right: 5.5px;
+}
+
+.bottom-right2-image {
+    position: absolute;
+    top: 485px;
+    right: 0;
+    width: 49px;
+    height: auto;
+    margin-right: 5.5px;
+}
+
+.box {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: white;
+    width: 1013px;
+    height: 685px;
+    margin: auto;
+    border-radius: 2px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.top-right-top-corner {
+    position: absolute;
+    width: 35px;
+    height: 40px;
+    top: 0;
+    right: 0;
+    margin-right: 51px;
+    margin-top: 50px;
+    z-index: -1;
+}
+
+.top-left-bottom-corner {
+    position: absolute;
+    width: 35px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    margin-left: 51px;
+    margin-top: 706px;
+    z-index: -1;
+}
+
+.company-name {
+    margin-top: 100px;
+    line-height: 0;
+}
+
+.i {
+    color: #FF0202;
+    font-family: allFont;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.learn {
+    color: #000;
+    font-family: allFont;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.x {
+    color: #F60404;
+    font-family: allFont;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.certificate {
+    line-height: 2;
+    color: #000;
+    font-family: allFont;
+    font-size: 18px;
+    letter-spacing: 12px;
+    padding-top: 10px;
+}
+
+.cert-info {
+    color: #000;
+    font-family: allFont2;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 0;
+    padding-top: 45px;
+    padding-bottom: 200px;
+}
+
+
+.comment {
+    width: 800px;
+    height: 70px;
+    padding-top: 20px;
+    color: #000;
+    text-align: center;
+    font-family: allFont2;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1;
+    margin: auto;
+}
+
+.iRed {
+    color: #FF0202;
+}
+
+.XRed {
+    color: #FF0202;
+}
+
+.footer {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.column {
+    display: inline-block;
+    width: 150px;
+    padding: 40px;
+}
+
+.ft-left-date {
+    margin-left: 70px;
+    color: #000;
+    font-family: allFont2;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 0;
+    margin-right: 100px;
+    padding-bottom: 5px;
+}
+
+.ft-left-date-bottom {
+    border-top: 2px solid black;
+    line-height: 1;
+    font-family: allFont2;
+    font-size: 25px;
+    padding-top: 5px;
+
+}
+
+.ft-logo {
+    width: 80px;
+    height: 80px;
+}
+
+.ft-right {
+    margin-right: 70px;
+    color: #000;
+    font-family: allFont2;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 0;
+}
+
+.ft-right-img {
+    width: 80px;
+    padding-bottom: 5px;
+}
+
+.ft-right-date-bottom {
+    border-top: 2px solid black;
+    line-height: 1;
+    padding-top: 5px;
+    font-family: Roboto Serif;
+    font-size: 25px;
+}

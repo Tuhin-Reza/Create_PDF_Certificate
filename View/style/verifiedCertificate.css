@@ -1,0 +1,167 @@
+@font-face {
+    font-family: userFont;
+    src: url(Font/Playball-Regular.ttf);
+}
+
+@font-face {
+    font-family: allFont;
+    src: url(Font/RobotoSerif-Italic-VariableFont_GRAD\,opsz\,wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: allFont2;
+    src: url(Font/RobotoSerif-VariableFont_GRAD\,opsz\,wdth\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    border: 5px solid goldenrod;
+    padding: 20px;
+    margin: auto;
+    background-image: url(../img/logo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    height: 93.69%;
+}
+
+.top {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.top-column {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.space {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.top-column-right {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -10px;
+}
+
+.v-c {
+    color: #0871b3;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 0.8;
+}
+
+.v-c>span {
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.top-box>div {
+    color: black;
+    font-family: allFont;
+}
+
+.logo {
+    width: 140px;
+}
+
+.logo-des {
+    text-align: center;
+    line-height: 0;
+}
+
+.ilearn {
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 0;
+}
+
+.i {
+    color: red;
+}
+
+.x {
+    color: red;
+}
+
+.summery {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+/* Section Middle */
+.middle {
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.middle>div {
+    color: black;
+    font-family: allFont;
+}
+
+/* .user-name {
+    color: black;
+    font-family: userFont;
+    font-size: 80px;
+    line-height: 0.5;
+} */
+
+.h_s_p {
+    margin-top: 130px;
+    font-size: 25px;
+    font-family: allFont;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.middle>div>h1 {
+    border-bottom: 3px solid goldenrod;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.date {
+    font-family: allFont;
+    font-size: 30px;
+
+}
+
+/* Section Bottom */
+.bottom {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bottom-coloum {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.instructor-signature {
+    border-top: 3px solid black;
+    font-family: allFont;
+    font-size: 23px;
+}
+
+.ceo-signature {
+    border-top: 3px solid black;
+    font-family: allFont;
+    font-size: 23px;
+}
+
+.space-bottom {
+    padding-left: 170px;
+    padding-right: 170px;
+}
