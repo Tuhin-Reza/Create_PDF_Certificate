@@ -1,0 +1,8 @@
+.heading{
+	display: flex;
+}
+.certificate-button{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}

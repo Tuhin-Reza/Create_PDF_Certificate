@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Serif:500,400,200|Inter:900,200|Playball:400|Roboto+Slab:400");
+.main{
+    border: 10px solid goldenrod;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    background-image: url(../img/logo2.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    height: 87vh;
+}
+
+.top-box{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.v-c{
+    color: #0871b3;
+    font-style: normal;
+    font-size: 25px;
+    font-weight:bolder; 
+}
+.v-c>span{
+    color: black;
+    font-size: 15px;
+    font-weight: 400; 
+}
+.top-box>div{
+    color: var(--black);
+    font-family: 'Roboto Serif', serif;
+}
+.logo{
+    width: 100px;
+}
+.top-box-right{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* Section Middle */
+.middle{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+}
+
+.middle>div{
+    color: var(--black);
+    font-family: 'Roboto Serif', serif;
+}
+.user-name{
+    color: var(--black);
+    font-family: 'Playball', cursive;
+    font-size: 50px;
+    line-height: 0.5;
+}
+.h_s_p{
+    
+    font-weight: bold;
+    padding-bottom: 55px;
+}
+.middle>div>h1{
+    border-bottom: 3px solid black;
+}
+
+
+/* Section Bottom */
+.bottom-box{
+    display: flex;
+    justify-content: space-around;
+    color: var(--black);
+    font-family: 'Roboto Serif', serif;
+}
+.instructor-signature{
+    border-top: 3px solid black;
+}
+.ceo-signature{
+    border-top: 3px solid black;
+}
+
+.logo-des{
+    text-align: center;
+    line-height: 0;
+}
+.ilearn{
+   font-size: 30px;
+   font-weight: bolder;
+   line-height: 0;
+}
+.i{
+    color: red;
+}
+.x{
+    color: red;
+}
+.summery{
+    font-size: 15px;
+    line-height: 1;
+}
